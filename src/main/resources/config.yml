@@ -1,0 +1,44 @@
+# 5인 맨헌트 플러그인 설정 파일
+
+# 게임 설정
+game:
+  # 러너 체력 (기본: 30)
+  runner_health: 30
+  # 헌터 체력 (기본: 20)
+  hunter_health: 20
+  # 최대 헌터 수 (기본: 4)
+  max_hunters: 4
+
+# 나침반 설정
+compass:
+  # 나침반 지속 시간 (초, 기본: 60)
+  duration: 60
+  # 나침반 쿨다운 (초, 기본: 300)
+  cooldown: 300
+  # 거리 정보 표시 (기본: false)
+  show_distance: false
+  # 차원 정보 표시 (기본: false)
+  show_dimension: false
+
+# 엔드 설정
+end:
+  # 엔드 진입 시 스폰 높이 (기본: 150)
+  spawn_height: 150
+  # 엔드 진입 알림 표시 (기본: false)
+  show_entry_message: false
+  # 느린 낙하 효과 지속시간 (초, 기본: 30)
+  slow_falling_duration: 30
+
+# 메시지 설정
+messages:
+  # 게임 시작/종료 메시지 표시 (기본: true)
+  show_game_messages: true
+  # 플레이어 역할 알림 (기본: true)
+  show_role_messages: true
+  # 포털 이용 알림 (기본: true)
+  show_portal_messages: true
+
+# 디버그 설정
+debug:
+  # 디버그 메시지 표시 (기본: false)
+  enabled: false
